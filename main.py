@@ -331,7 +331,7 @@ print("Ciclos\n")
 
 print("Multiplo de 3\n")
 
-for numero in range(1, 100, 2):
+for numero in range(0, 100, 3):
     print(numero, end=",")
 
 
@@ -345,8 +345,8 @@ print("Ciclos\n")
 
 print("Numeros impares\n")
   
-def multiplos_tres(numero, n):
-    return [numero * i for i in range(1, n + 1)]
+for numero in range(1, 100, 2):
+    print(numero, end=",")
 
 print("\n")
 
