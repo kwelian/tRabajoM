@@ -385,6 +385,6 @@ print("Ciclos\n")
 
 print("Numeros del 1 al 100\n")
 
-for numero_cuadrado in range (1,100):
+for numero_cuadrado in range (1,101):
   print (numero_cuadrado**2, end=",")
 
