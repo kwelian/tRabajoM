@@ -372,11 +372,8 @@ print("Ciclos\n")
 
 print("Numeros del 1 al 30\n")
 
-def multiplos_tres(numero, n):
-    return [numero * i for i in range(1, n + 1)]
-
-print(multiplos_tres(1, 30))
-
+for numero in range (1,31):
+  print (numero**2, end=",")
 
 print("\n")
 
@@ -388,8 +385,6 @@ print("Ciclos\n")
 
 print("Numeros del 1 al 100\n")
 
-def naturales(numero, n):
-    return [numero * i for i in range(1, n + 1)]
+for numero_cuadrado in range (1,100):
+  print (numero_cuadrado**2, end=",")
 
-
-print(naturales(1, 100))
